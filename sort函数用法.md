@@ -59,6 +59,24 @@ int main () {
   return 0;
 }
 ```
+## string 使用反向迭代器来完成逆序排列
+``` c++
+#include <iostream>
+using namespace std;
+int main()
+{
+     string str("cvicses");
+     string s(str.rbegin(),str.rend());
+     cout << s <<endl;
+     return 0;
+}
+```
+//输出：sescivc
+--------------------- 
+作者：浅然_ 
+来源：CSDN 
+原文：https://blog.csdn.net/w_linux/article/details/76222112 
+版权声明：本文为博主原创文章，转载请附上博文链接！
 --------------------- 
 作者：浅然_ 
 来源：CSDN 
