@@ -8,7 +8,7 @@
   - （2）第二个是结束的地址（最后一位要排序的地址）
   - （3）第三个参数是排序的方法，可以是从大到小也可是从小到大，还可以不写第三个参数，此时默认的排序方法是从小到大排序。
  ## 两个参数用法
- *** c++
+ ``` c++
 #include <iostream>
 #include <algorithm>
 int main()
@@ -21,9 +21,9 @@ int main()
  cout<<a[i]<<endl;
  return 0;
 }
-***
+```
 ## 三个参数
-*** c++
+``` c++
 // sort algorithm example
 #include <iostream>     // std::cout
 #include <algorithm>    // std::sort
@@ -58,7 +58,7 @@ int main () {
 
   return 0;
 }
-***
+```
 --------------------- 
 作者：浅然_ 
 来源：CSDN 
